@@ -1,0 +1,65 @@
+
+.menu{
+	height: 100px;
+	width: 100%;
+	background-color:#6E7F7C;
+	position: relative;
+
+}
+.for-mid{
+	height: 50px;
+	width: 500px;
+	margin: auto;
+	position: relative;
+	top: 25px;
+	box-sizeing:border-box;
+
+
+}
+
+
+
+li{
+	display: none;
+	display: block;
+	float: left;
+	margin-right: 25px;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: #4CFFDA;
+}
+
+
+
+
+
+
+form {
+	margin: auto;
+	height: 500px;
+	width: 500px;
+	margin-top:20px;
+}
+input {
+	height: 70px;
+	width: 300px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#button{
+	background-color: #6E7F7C;
+	border: none;
+}
+
+#button:hover {
+	background-color: #4CFFDA;
+	transition: 0.5s;
+}

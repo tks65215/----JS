@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+	<div class = "menu">
+		<div class = "for-mid">
+		<ul id ="list">	
+			<li>
+				<a href="">home</a>
+			</li>
+
+
+		</ul>
+		</div>	
+	</div>
+
+
+
+
+		<script>
+			var newli = document.createElement("li");
+			var newa = document.createElement("a");
+			newa.innerHTML ="about me";
+			newa.href = "http://vk.com";
+			newa.className = "alementByJs";
+			list.insertBefore(newli, list.children[1]);
+			newli.insertBefore(newa, newli.children[0]);
+
+			var newlic = document.createElement("li");
+			var newac = document.createElement("a");
+			newac.innerHTML ="contact";
+			newac.href = "http://google.com";
+			newac.className = "alementByJs";
+			list.insertBefore(newlic, list.children[2]);
+			newlic.insertBefore(newac, newlic.children[0]);
+
+
+
+
+
+			var newInputName = document.createElement("input");
+			newInputName.type = "text";
+			newInputName.placeholder = "enter your name";
+
+			var newInputPass = document.createElement("input");
+
+			newInputPass.type = "password";
+			newInputPass.placeholder = "enter your pass";
+			var newInputbutt = document.createElement("input");
+			newInputbutt.id = "button";
+			newInputbutt.type ="submit";
+			newInputbutt.value = "gogo";
+
+			var form = document.createElement("form");
+
+			form.id="forma";
+			form.appendChild(newInputName);
+			form.appendChild(newInputPass);
+			form.appendChild(newInputbutt);
+			document.body.appendChild(form);
+
+			
+
+
+			//form.appendChild(newInputName).appendChild(newInputPass).appendChild(newInputbutt);
+			
+
+
+
+
+
+
+
+
+
+
+
+
+		</script>
+	</body>
+
+
+
+</html>
